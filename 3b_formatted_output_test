@@ -1,0 +1,7 @@
+PS E:\final_project> python
+Python 3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from emotion_detection import emotion_detector
+>>> emotion_detector('I am so happy I am doing this.')
+{'anger': 0.003, 'disgust': 0.001, 'fear': 0.002, 'joy': 0.982, 'sadness': 0.012, 'dominant_emotion': 'joy'}
+>>> exit()

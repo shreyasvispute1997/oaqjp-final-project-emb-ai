@@ -1,0 +1,7 @@
+PS E:\final_project> python
+Python 3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from EmotionDetection import emotion_detector
+>>> emotion_detector('I hate working long hours.')
+{'anger': 0.608, 'disgust': 0.002, 'fear': 0.005, 'joy': 0.008, 'sadness': 0.121, 'dominant_emotion': 'anger'}
+>>> exit()
